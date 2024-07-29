@@ -17,7 +17,7 @@ export default function App() {
             element: <RootLayout />,
             children: [
                 // { index: true, element: <WhatBec /> },
-                { path: "532525", element: <Barter proposition={propositions[0]} /> },
+                { path: "A", element: <Barter proposition={propositions[0]} /> },
                 { path: "135125", element: <Barter proposition={propositions[1]} /> },
                 { path: "645636", element: <Barter proposition={propositions[2]} /> },
             ],
