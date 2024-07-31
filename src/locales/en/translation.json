@@ -106,212 +106,145 @@
         "discontText2": "*The payment will proceed according to the NBU exchange rate.",
         "discontText3": "*After the end of the competition each partner company will get a full report with all the photos and aftermovie.",
         "propositions": [
-                
-                {
-                    "title": "Solid Base",
-                    "points": [
-                            "Participation in the networking",
-                            "Option of providing a judge or/and a mentor",
-                            "The logotype on our website, on the brand wall and in the aftermovie",
-                            "Promotion on social media"
-                    ],
-                    "subInfo": "This package of proposals is mandatory!",
-                    "price": "350"
-                },
-                {
-                    "title": "Influencer",
-                    "points": [
-                        
-                            "Post on the Instagram feed",
-                    
-                        "Video presentation of the company",
-                    
-                        "Post on the Telegram channel",
-                        
-                        
-                        "Company`s banner on the venue"
-                        
-                    ],
-                    "subInfo": "Only 3 companies can buy",
-                    "price": "300"
-                },
-                {
-                    "title": "Utopia",
-                    "points": [
-                    
-                            "Possibility to conduct a workshop among participants",
+  {
+    "title": "Solid Base",
+    "points": [
+      "Participation in networking",
+      "1 Instagram-story",
+      "Company banner at the event location",
+      "Photo report and mention in the aftermovie"
+    ],
+    "subInfo": "This package is mandatory!",
+    "price": "350"
+  },
+  {
+    "title": "Influencer",
+    "points": [
+      "Participation in networking",
+      "2 Instagram-stories",
+      "Company banner at the event location",
+      "Photo report and mention in the aftermovie",
+      "Logo on the brand wall",
+      "Broadcasting of the company video at the event location"
+    ],
+    "subInfo": "3 spots left",
+    "price": "300"
+  },
+  {
+    "title": "Utopia",
+    "points": [
+      "Participation in networking",
+      "3 Instagram-stories and pinning in highlights",
+      "Company banner at the event location",
+      "Photo report and mention in the aftermovie",
+      "Logo on the brand wall",
+      "Broadcasting of the company video at the event location",
+      "Logo on the event website",
+      "Post-digest in the Telegram channel",
+      "Distribution of company flyers at the event location"
+    ],
+    "subInfo": "4 spots left",
+    "price": "700"
+  }
+]
 
-                            "Logo on T-shirts",
-                    
-                        
-                            "Access to the CV database of participants",
-                        
-                            "Permanent access to competitions",
-                        
-                        
-                            "Sending out job vacancies via a Telegram bot",
-                        
-                    
-                            "Article about the company on the event website"
-                        
-                    ],
-                    "subInfo": "Only 4 companies can buy",
-                    "price": "700"
-                },
-                {
-                    "title": "Advanced",
-                    "points": [
-                        
-                        "Reels Instagram post",
-                        
-                        
-                        "Trial interview with participants",
-                        
-                        
-                        "Video presentation of the company",
-                        
-                        
-                        "Nomination from the company",
-                        
-                        
-                        "A day with the company",
-                        
-                        
-                        "Sending out job vacancies via a Telegram bot",
-                        
-                        
-                        "Podcast with a company representative"
-                        
-                    ],
-                    "subInfo": "The company can choose 4 selling points out of 7",
-                    "price": "550"
-                }
-            ]
         },
 
  "packetsInfo": {
-    "propositions": [
+   "propositions": [
+  {
+    "title": "Solid Base",
+    "points": [
       {
-        "title": "Solid Base",
-        "points": [
-          {
-            "text": "Promotion on social media",
-            "description": "Information about your company will be posted on our social media: 1 Instagram story on the official page @best_lviv and 1 LinkedIn post about our organisation."
-          },
-          {
-            "text": "Participation in the networking",
-            "description": "The networking is an informal meeting of the company's representatives, participants, and organisers. The company can tell students about itself, current vacancies, and internship possibilities. The networking will be held on the day of the competition's official closing."
-          },
-          {
-            "text": "Option of providing a judge or/and a mentor",
-            "description": "The company provides a mentor and/or a judge for the category Case Study/Team Design. Mentoring sessions will be held during the competitions, so participants will have a chance to consult with your company's qualified employees."
-          },
-          {
-            "text": "The logotype on our website",
-            "description": "Your company's logotype will be placed on the competition's official website."
-          },
-          {
-            "text": "The logotype on the brandwall",
-            "description": "During the competitions, a giant banner with the logotypes of all the partners will be installed in the venue."
-          },
-          {
-            "text": "The logotype in the aftermovie",
-            "description": "Your company's logo will be shown in the after-movie of the competitions, which will be posted on the Instagram page @best_lviv."
-          }
-        ],
-        "price": "350",
-        "subInfo": "This package of proposals is mandatory!"
+        "text": "Participation in networking",
+        "description": "Networking is an opportunity to communicate with representatives of other companies and competition participants in an informal atmosphere. Networking will take place on the day of the official closing of the competition."
       },
       {
-        "title": "Influencer",
-        "points": [
-          {
-            "text": "Post on the Instagram feed",
-            "description": "Information about your company will be posted on our Instagram page @best_lviv."
-          },
-          {
-            "text": "Post on the Telegram channel",
-            "description": "Information about your company will be posted in the joint post on our Telegram channel BEST Lviv Students."
-          },
-          {
-            "text": "Company's banner on the venue",
-            "description": "Your company's banner will be installed in the venue during the competitions. The company provides a banner and a stand for it."
-          },
-          {
-            "text": "Video presentation of the company",
-            "description": "At the beginning of the networking, you can present your company via video. The video should last no longer than 5 minutes."
-          }
-        ],
-        "price": "300",
-        "subInfo": "Limited offer: only three companies can buy."
+        "text": "1 Instagram-story",
+        "description": "Posting information about the company in 1 Instagram story on the @best_lviv page. The information will be posted after the competition."
       },
       {
-        "title": "Advanced",
-        "points": [
-          {
-            "text": "Reels Instagram post",
-            "description": "Unique video on the Instagram page @best_lviv about your company."
-          },
-          {
-            "text": "Trial interview with participants",
-            "description": "During networking, participants of the competition will have a chance to engage in a short interview with representatives from your company. This is an opportunity to discover new talents and prospective employees within the student community."
-          },
-          {
-            "text": "Video presentation of the company",
-            "description": "The opportunity to present your company to the participants before the networking in the form of a video that will last up to 5 minutes."
-          },
-          {
-            "text": "Nomination from the company",
-            "description": "You will be able to choose your own nomination in the competition and reward the team whose solution or performance resonates most with your company."
-          },
-          {
-            "text": "A day with the company",
-            "description": "After the event, our Instagram stories will be filled with your company's content. You can send your videos or our team will help you create them. There will be up to 5 such stories."
-          },
-          {
-            "text": "Sending out job vacancies via a Telegram bot",
-            "description": "Semi-annual mailing of company vacancies in our Telegram bot, intended for registration, important announcements and communication during the event."
-          },
-          {
-            "text": "Podcast with a company representative",
-            "description": "This is an opportunity to make a podcast with our team and share your professional opinion on current issues in the field of engineering and beyond. The full video will be posted on our YouTube channel BEST Lviv, and some highlights on our Instagram page @best_lviv."
-          }
-        ],
-        "price": "550",
-        "subInfo": "The company can choose 4 selling points out of 7."
+        "text": "Company banner at the event location",
+        "description": "During the competition, you will have the opportunity to place a banner of your company at the event location. The company provides the banner and the stand for it."
       },
       {
-        "title": "Utopia",
-        "points": [
-          {
-            "text": "Possibility to conduct a workshop among participants",
-            "description": "Opportunity to conduct a workshop or training lasting up to 40 minutes for participants during the official opening of the competition."
-          },
-          {
-            "text": "The logotype on T-shirts",
-            "description": "Your company's logo will be printed on the T-shirts that will be given to the participants and representatives of the BEST Lviv organisation."
-          },
-          {
-            "text": "Access to the CV database of participants",
-            "description": "This is an opportunity to access the CV database of participants."
-          },
-          {
-            "text": "Permanent access to competitions",
-            "description": "Representatives of your company will have unrestricted access to the competition venue."
-          },
-          {
-            "text": "Sending out job vacancies via a Telegram bot",
-            "description": "Semi-annual mailing of company vacancies in our Telegram bot, intended for registration, important announcements and communication during the event."
-          },
-          {
-            "text": "Article about the company on the event website",
-            "description": "We will publish an article about your company and its contribution to the organisation of the event on the official website of the competition."
-          }
-        ],
-        "price": "700",
-        "subInfo": "Limited package, 4 companies can buy."
+        "text": "Photo report and mention in the aftermovie",
+        "description": "After the competition, each partner company will receive a report with all the company's photos. The company's logo will also appear at the end of the video, which will be created to summarize the event and posted on the Instagram page @best_lviv."
       }
     ]
+  },
+  {
+    "title": "Influencer",
+    "points": [
+      {
+        "text": "Participation in networking",
+        "description": "Networking is an opportunity to communicate with representatives of other companies and competition participants in an informal atmosphere. Networking will take place on the day of the official closing of the competition."
+      },
+      {
+        "text": "2 Instagram-stories",
+        "description": "Posting information about the company in 2 Instagram stories on the @best_lviv page. The information will be posted after the competition."
+      },
+      {
+        "text": "Company banner at the event location",
+        "description": "During the competition, you will have the opportunity to place a banner of your company at the event location. The company provides the banner and the stand for it."
+      },
+      {
+        "text": "Photo report and mention in the aftermovie",
+        "description": "After the competition, each partner company will receive a report with all the company's photos. The company's logo will also appear at the end of the video, which will be created to summarize the event and posted on the Instagram page @best_lviv."
+      },
+      {
+        "text": "Logo on the brand wall",
+        "description": "During the event, a large banner with the logos of our competition partners will be displayed."
+      },
+      {
+        "text": "Broadcasting of the company video at the event location",
+        "description": "At the competition venue, a video of your company (up to two minutes) will be broadcast. The company provides the video."
+      }
+    ]
+  },
+  {
+    "title": "Utopia",
+    "points": [
+      {
+        "text": "Participation in networking",
+        "description": "Networking is an opportunity to communicate with representatives of other companies and competition participants in an informal atmosphere. Networking will take place on the day of the official closing of the competition."
+      },
+      {
+        "text": "3 Instagram-stories and pinning in highlights",
+        "description": "Posting information about the company in 3 Instagram stories on the @best_lviv page and pinning it in highlights for 1 month. The information will be posted after the competition."
+      },
+      {
+        "text": "Company banner at the event location",
+        "description": "During the competition, you will have the opportunity to place a banner of your company at the event location. The company provides the banner and the stand for it."
+      },
+      {
+        "text": "Photo report and mention in the aftermovie",
+        "description": "After the competition, each partner company will receive a report with all the company's photos. The company's logo will also appear at the end of the video, which will be created to summarize the event and posted on the Instagram page @best_lviv."
+      },
+      {
+        "text": "Logo on the brand wall",
+        "description": "During the event, a large banner with the logos of our competition partners will be displayed."
+      },
+      {
+        "text": "Broadcasting of the company video at the event location",
+        "description": "At the competition venue, a video of your company (up to two minutes) will be broadcast. The company provides the video."
+      },
+      {
+        "text": "Logo on the event website",
+        "description": "Placement of the company's logo on the official event website."
+      },
+      {
+        "text": "Post-digest in the Telegram channel",
+        "description": "Posting information about the company in the Telegram channel BEST Lviv Students in a joint post along with other companies."
+      },
+      {
+        "text": "Distribution of company flyers at the event location",
+        "description": "During the competition, participants will receive your company's flyers. This will help increase brand awareness and attract new customers. The company provides the flyers."
+      }
+    ]
+  }
+]
+
   },
 
   "addtitionalPropositions": {
