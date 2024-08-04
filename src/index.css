@@ -574,3 +574,13 @@ input[type="checkbox"] {
 
 
 
+.burger-links button{
+  font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+  transition: color ease 300ms;
+
+}
+
+.burger-links button:hover{
+  color: white;
+  
+}

@@ -60,6 +60,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Rubik';
+
+  src: url('/src/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
 /* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
@@ -1173,12 +1183,12 @@ video {
   width: 320px;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[416px\] {
   width: 416px;
+}
+
+.w-\[45\%\] {
+  width: 45%;
 }
 
 .w-\[560px\] {
@@ -1683,6 +1693,10 @@ video {
 
 .font-karla {
   font-family: Karla;
+}
+
+.font-rubik {
+  font-family: Rubik;
 }
 
 .text-\[12px\] {
@@ -2446,6 +2460,15 @@ input[type="checkbox"] {
   /* Reset appearance for other browsers */
 }
 
+.burger-links button{
+  font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+  transition: color ease 300ms;
+}
+
+.burger-links button:hover{
+  color: white;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -2970,7 +2993,3 @@ input[type="checkbox"] {
     left: 18%;
   }
 }
-
-
-
-

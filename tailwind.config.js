@@ -70,6 +70,7 @@ module.exports = {
       workSansB: ['WorkSansB'], 
       karla: ['Karla'],
       franclin: ['franclin'],
+      rubik: ['Rubik'], 
     }
   },
   plugins: [],

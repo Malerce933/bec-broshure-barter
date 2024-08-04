@@ -79,11 +79,11 @@ export default function FullScreen({ propositionsRef, whatBecRef, statisticsRef,
     }
 
     let modalMenuContent = (
-        <div className={`fixed flex opacity-90 items-center justify-center z-50 bg-customOrange top-0 right-0 w-[40%] h-full transition-transform transform ${modalMenu ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed flex opacity-90 items-center justify-center z-50 bg-customOrange top-0 right-0 w-[45%] h-full transition-transform transform ${modalMenu ? 'translate-x-0' : 'translate-x-full'}`}>
             <div className="absolute top-4 right-4">
                 <button onClick={handleClickMenu} className="text-black text-2xl">&times;</button>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 py-10 font-daysOne text-black">
+            <div className="flex flex-col items-center justify-center space-y-4 py-10 font-rubik  text-black burger-links">
                 <button onClick={() => { handleScrollToWhatBec(); handleClickMenuElements(); }} className="text-[20px]">{t('full-screen.nav.about-us')}</button>
                 <button onClick={() => { handleScrollToPropositions(); handleClickMenuElements(); }} className="text-[20px]">{t('full-screen.nav.propositions')}</button>
                 <button onClick={() => { handleScrollToStatistics(); handleClickMenuElements(); }} className="text-[20px]">{t('full-screen.nav.statistics')}</button>
