@@ -33,7 +33,7 @@ export default function WhatBec({ isMobile, innerRef }) {
                 <p className="  leading-[150%]  mb-[24px]">{t('what-bec.text2')}</p>
             </div>
 
-            <a target="_blank" rel="noopener noreferrer" href="https://bec-web-2024.vercel.app/" className=" items-center justify-center bg-black relative z-30 flex what__button transition-transform transform-gpu duration-[400ms] hover:scale-[1.1]  border-2  border-customOrange text-white py-[10px]">{t('what-bec.more')}</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://bec-2024.best-lviv.org.ua/ua" className=" items-center justify-center bg-black relative z-30 flex what__button transition-transform transform-gpu duration-[400ms] hover:scale-[1.1]  border-2  border-customOrange text-white py-[10px]">{t('what-bec.more')}</a>
         </div>
     );
 }
