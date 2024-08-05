@@ -2463,10 +2463,11 @@ input[type="checkbox"] {
 .burger-links button{
   font-size: calc(16px + 4 * (100vw - 320px) / 1120);
   transition: color ease 300ms;
+  color: rgba(50, 50, 50, 1);
 }
 
 .burger-links button:hover{
-  color: white;
+  color: black;
 }
 
 .before\:absolute::before {
@@ -2993,3 +2994,5 @@ input[type="checkbox"] {
     left: 18%;
   }
 }
+
+
