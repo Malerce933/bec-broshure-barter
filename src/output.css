@@ -2256,7 +2256,7 @@ video {
 }
 
 .partner__sub-title{
-  font-size: calc(20px + 12 * (100vw - 320px) / 1120);
+  font-size: calc(24px + 12 * (100vw - 320px) / 1120);
 }
 
 .partner__image{

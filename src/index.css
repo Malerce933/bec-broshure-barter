@@ -399,7 +399,7 @@
     font-size: calc(28px + 8 * (100vw - 320px) / 1120);
   }
   .partner__sub-title{
-    font-size: calc(20px + 12 * (100vw - 320px) / 1120);
+    font-size: calc(24px + 12 * (100vw - 320px) / 1120);
   }
   .partner__image{
     width: calc(298px + 175 * (100vw - 320px) / 1120);
@@ -412,7 +412,7 @@
     margin-bottom: calc(125px + 125* (100vw - 320px) / 1120);
   }
   .portrait__title{
-    margin-bottom: calc(30px + 35 *  (100vw - 320px) / 1120);
+    margin-bottom: calc(25px + 45 *  (100vw - 320px) / 1120);
   }
   .propositions{
     margin-bottom: calc(150px + 100* (100vw - 320px) / 1120);
@@ -454,12 +454,16 @@
     margin-bottom: calc(25px +  30*   (100vw - 320px) / 1120);
   }
 
+  .main-title{
+    margin-bottom: 0px;
+  }
+
   .statistic{
     margin-bottom: calc(150px + 120 * (100vw - 320px) / 1120);
   }
   .statistic__title{
     font-size: calc(24px + 12 * (100vw - 320px) / 1120);
-    margin-bottom: calc(50px * (100vw - 320px) / 1120);
+    margin-bottom: calc(16px + 34  * (100vw - 320px) / 1120);
   }
   .statistic__sub-title{
     font-size: calc(20px + 8 * (100vw - 320px) / 1120);
@@ -480,9 +484,7 @@
     width: calc(270px + 102 * (100vw - 320px) / 1120);
     height: calc(152px + 72 * (100vw - 320px) / 1120);
   }
-  .vs__title{
-    margin-bottom: calc(25px + 65 * (100vw - 320px) / 1120);
-  }
+
   .what__text{
     font-size: calc(14px + 6 * (100vw - 320px) / 1120);
   }
@@ -534,9 +536,7 @@
 .what{
   margin-bottom: calc(38px + 15 * (100vw - 320px) / 1120);
 }
-.what__title{
-  margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
-}
+
 
 .custom-scrollbar {
     scrollbar-width: thin; /* Firefox */
@@ -586,3 +586,46 @@ input[type="checkbox"] {
 }
 
 
+
+.what__title{
+  margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
+}
+
+.vs__title{
+  margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
+}
+.opportunities__title{
+  margin-bottom: calc(25px + 50 * (100vw - 320px) / 1120);
+} 
+
+.statistic__titlee{
+  margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
+} 
+
+.portrait__title{
+  margin-bottom: calc(25px + 30 *  (100vw - 320px) / 1120);
+}
+
+.propositions__title{
+  margin-bottom: calc(25px + 30 *  (100vw - 320px) / 1120);
+}
+
+.sub-propositions__title{
+  margin-bottom: calc(25px + 30 *  (100vw - 320px) / 1120);
+}
+
+.basket__title{
+  margin-bottom: calc(25px + 30 *  (100vw - 320px) / 1120);
+}
+
+.partners__title{
+  margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
+}
+
+.about__title{
+  margin-bottom: calc(25px +  30 *  (100vw - 320px) / 1120);
+}
+
+.contacts__title{
+  margin-bottom: calc(25px +  30 *   (100vw - 320px) / 1120);
+}

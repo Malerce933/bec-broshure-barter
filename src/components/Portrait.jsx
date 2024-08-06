@@ -22,7 +22,7 @@ export default function Portrait({ isMobile }) {
                 <div className=" mb-[30px] px-5 portraitt:px-0 ">
                     <p className="partner__title font-daysOne leading-10   mb-[9px]">{t('portrait.student')}</p>
                     <p className="partner__title font-daysOne mb-[13px]">{t('portrait.age')}<span className=" partner__span-title">17-21</span> </p>
-                    <p className="partner__sub-title font-daysOne mb-[14px]">{t('portrait.majors')}</p>
+                    <p className="partner__sub-title font-rubik mb-[14px]">{t('portrait.majors')}</p>
                     <Points data={specialities} className="before:top-[10px] 1090xl:before:top-[16px] before:w-[6px] before:h-[6px] 1090xl:before:w-[8px] 1090xl:before:h-[8px]"></Points>
                 </div>
 

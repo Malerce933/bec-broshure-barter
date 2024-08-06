@@ -79,7 +79,6 @@ export default function RootLayout() {
             <Statistics isMobile={isMobile} innerRef={statisticsRef} />
             <Portrait isMobile={isMobile} />
             <div ref={propositionsRef}></div>
-            {/* <Propositions isMobile={isMobile} innerRef={propositionsRef} selectedPropositions={selectedPropositions} addToBasket={addToBasket} handleRemoveProposition={handleRemoveProposition} /> */}
             <Outlet innerRef={propositionsRef} />
             <Partners isMobile={isMobile} />
             <Aboutbest />
