@@ -36,6 +36,7 @@ module.exports = {
         "lg-full-screen" : "url('/src/assets/lgFull.svg')",
         "linesMob" : "url('/src/assets/linesMob.svg')",
         "linesMob2" : "url('/src/assets/linesMob2.svg')",
+        "oval" : "url('/src/assets/oval.svg')",
 
       },
       filter: {

@@ -421,6 +421,38 @@
     margin-bottom: calc(30px + 35 *  (100vw - 320px) / 1120);
   }
 
+  .media__title {
+    font-size: calc(32px + 16 * (100vw - 320px) / 1120);
+    margin-bottom: 0;
+    
+    line-height: calc(35.73px + 30.57 * (100vw - 320px) / 1120);
+  } 
+  .media__titl-last {
+    margin-bottom: calc(25px + 30 * (100vw - 320px) / 1120);
+  }
+  .media__sub-title {
+    font-size: calc(20px + 16 * (100vw - 320px) / 1120);
+    margin-bottom: calc(11px + 3 *  (100vw - 320px) / 1120);
+  }
+
+  .media__point {
+    margin-bottom: calc(5 +  (100vw - 320px) / 1120);
+    font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+    :last-child{
+      margin-bottom: 0;
+    }
+  }
+  .media__block{
+    padding-left: calc(19px + 13 * (100vw - 320px) / 1120);
+    padding-right: calc(19px + 13 * (100vw - 320px) / 1120);
+    padding-bottom: calc(34px +  (100vw - 320px) / 1120);
+    padding-top: calc(34px +  (100vw - 320px) / 1120);
+  }
+  .media__text{
+    font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+  }
+
+
   .sub-propositions{
     margin-bottom: calc(150px + 100* (100vw - 320px) / 1120);
   }

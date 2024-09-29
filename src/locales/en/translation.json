@@ -380,7 +380,21 @@
                 "text": "Support the development of young engineers"
             }
         ]
-    }
+    },
+
+  "media": {
+  "title1": "What we offer",
+  "title2": "VS",
+  "title3": "What we want to get",
+  "points1": "Publication of a story on the @best_lviv page with a mark;",
+  "points2": "Publication of a post in the BEST Lviv Students telegram channel with a mark;",
+  "points3": "Reposting your article about us on social networks (Instagram, Linkedin, Facebook).",
+  "points4": "Publishing an article about us on your website (if possible);",
+  "points5": "Publication of an article about us in your social networks;",
+  "points6": "Attend the opening and closing days of the project (if possible).",
+  "text1": "Our event serves as an important bridge between students and companies, creating opportunities for both parties. The main advantage for you is the opportunity to distribute your materials to these audiences, which will ensure that they get their attention.",
+  "text2": "This is a great opportunity to connect with talented students who could become future professionals in the engineering field, as well as to strengthen your brand among young and ambitious people."
+}
  
 
   

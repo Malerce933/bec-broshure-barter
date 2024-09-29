@@ -22,7 +22,7 @@ export default function Partners({ isMobile }) {
     const marginRight = isMobile ? "mr-[36px]" : "mr-[66px]";
 
     return (
-        <div className="partners text-white px-[15px]">
+        <div className="relative z-10 partners text-white px-[15px]">
             <Title className="partners__title text-center px-[40px]">{t("partners")}</Title>
             {chunkedPartners.map((row, rowIndex) => (
                 <div key={rowIndex} className="flex justify-center partners__row">
