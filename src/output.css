@@ -788,6 +788,10 @@ video {
   top: 112%;
 }
 
+.top-\[30\%\] {
+  top: 30%;
+}
+
 .top-\[40\%\] {
   top: 40%;
 }
@@ -806,14 +810,6 @@ video {
 
 .top-\[70\%\] {
   top: 70%;
-}
-
-.top-\[-10\%\] {
-  top: -10%;
-}
-
-.top-\[30\%\] {
-  top: 30%;
 }
 
 .-z-10 {
@@ -842,10 +838,6 @@ video {
 
 .z-50 {
   z-index: 50;
-}
-
-.z-0 {
-  z-index: 0;
 }
 
 .order-1 {
@@ -1015,6 +1007,10 @@ video {
   margin-right: 66px;
 }
 
+.mt-\[25px\] {
+  margin-top: 25px;
+}
+
 .mt-\[50px\] {
   margin-top: 50px;
 }
@@ -1045,6 +1041,10 @@ video {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[1200px\] {
+  height: 1200px;
 }
 
 .h-\[1500px\] {
@@ -1123,6 +1123,10 @@ video {
   height: 674.22px;
 }
 
+.h-\[700px\] {
+  height: 700px;
+}
+
 .h-\[75\%\] {
   height: 75%;
 }
@@ -1141,26 +1145,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[550px\] {
-  height: 550px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[1800px\] {
-  height: 1800px;
-}
-
-.h-\[800px\] {
-  height: 800px;
-}
-
-.h-\[1200px\] {
-  height: 1200px;
 }
 
 .max-h-\[283px\] {
@@ -1185,6 +1169,10 @@ video {
 
 .w-\[1700\.39px\] {
   width: 1700.39px;
+}
+
+.w-\[1800px\] {
+  width: 1800px;
 }
 
 .w-\[2000px\] {
@@ -1261,14 +1249,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[1800px\] {
-  width: 1800px;
-}
-
-.w-\[800px\] {
-  width: 800px;
 }
 
 .max-w-\[246px\] {
@@ -1451,6 +1431,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
 }
 
 .gap-\[35px\] {
@@ -1845,6 +1829,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-90 {
   opacity: 0.9;
 }
@@ -1856,31 +1844,6 @@ video {
 
 .blur-\[70px\] {
   --tw-blur: blur(70px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.blur-\[80px\] {
-  --tw-blur: blur(80px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-50 {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-\[50\] {
-  --tw-brightness: brightness(50);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-\[50\%\] {
-  --tw-brightness: brightness(50%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-\[30\%\] {
-  --tw-brightness: brightness(30%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1980,6 +1943,11 @@ video {
 }
 
 #info  button{
+  width: calc(235px + 120 * (100vw - 320px) / 1120);
+  height: calc(41px + 36 * (100vw - 320px) / 1120);
+}
+
+.media__materieal{
   width: calc(235px + 120 * (100vw - 320px) / 1120);
   height: calc(41px + 36 * (100vw - 320px) / 1120);
 }
@@ -2399,6 +2367,18 @@ video {
   font-size: calc(16px + 4 * (100vw - 320px) / 1120);
   :last-child{
     margin-bottom: 0;
+  }
+}
+
+.media__button {
+  padding-bottom: calc(15px + 8 * (100vw - 320px) / 1120);
+  padding-top: calc(15px + 8 * (100vw - 320px) / 1120);
+  font-size: calc(14px + 6 * (100vw - 320px) / 1120);
+}
+
+@media (min-width: 1440px) {
+  .media__button {
+    /* width: calc(280px + 325 * (100vw - 320px) / 1120); */
   }
 }
 
@@ -2926,6 +2906,10 @@ input[type="checkbox"] {
     margin-right: 46px;
   }
 
+  .lg\:mt-\[57px\] {
+    margin-top: 57px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -3014,10 +2998,6 @@ input[type="checkbox"] {
     justify-content: center;
   }
 
-  .lg\:justify-between {
-    justify-content: space-between;
-  }
-
   .lg\:gap-\[196px\] {
     gap: 196px;
   }
@@ -3028,6 +3008,10 @@ input[type="checkbox"] {
 
   .lg\:gap-\[37px\] {
     gap: 37px;
+  }
+
+  .lg\:gap-\[42px\] {
+    gap: 42px;
   }
 
   .lg\:gap-\[93px\] {

@@ -14,6 +14,7 @@ module.exports = {
         '1090xl': '1090px',
         '1130px': '1130px',
         '3xl': '1300px',
+        'custom-lg': '1940px', 
 
       },
       backgroundImage: {

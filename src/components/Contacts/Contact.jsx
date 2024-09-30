@@ -1,12 +1,13 @@
 import katyaImg from "/src/assets/katya.png"
 import rulaImg from "/src/assets/rula.png"
 import anyaImg from "/src/assets/anya.png"
+import hristImg from "/src/assets/hrist.jpg"
 
 const images = {
     "katya": katyaImg,
     "rula": rulaImg,
     "anya": anyaImg,
-
+    "hrist": hristImg,
 }
 
 import phone from "/src/assets/phone.svg"

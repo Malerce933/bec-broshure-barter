@@ -6,10 +6,11 @@ import Header from "./Header.jsx";
 import { useState, useEffect } from 'react';
 import LanguageSwitcher from "./LanguageSwitcher.jsx";
 import { useTranslation } from 'react-i18next';
+import { useLocation } from "react-router-dom";
 
 export default function FullScreen({ propositionsRef, whatBecRef, statisticsRef, contactsRef }) {
     const { t } = useTranslation();
-
+    const location = useLocation();
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
     const [modalMenu, setModalMenu] = useState(false);
 
@@ -148,7 +149,11 @@ export default function FullScreen({ propositionsRef, whatBecRef, statisticsRef,
             <div id="info" className="relative top-1/2 transform translate-y-[-50%] flex-grow flex flex-col justify-center mx-[50px] mb-[40px] text-white">
                 <h2 className="text-white text-header font-daysOne mb-[18px]">BEST Engineering Competition</h2>
                 <h3 className="text-white date-header text-nowrap font-karla leading-[33px] text-[28px]">{t('full-screen.date')}</h3>
-                <button onClick={handleScrollToPropositions} style={{ fontSize: 'calc(16px + 4 * (100vw - 320px) / 1120)' }} className="full-screen-button transition-transform transform-gpu duration-[400ms] hover:scale-[1.1] block  bg-customOrange text-black p-[10px]">{t('full-screen.become')}</button>
+                {location.pathname !== '/media'
+                    ? <button onClick={handleScrollToPropositions} style={{ fontSize: 'calc(16px + 4 * (100vw - 320px) / 1120)' }} className="full-screen-button transition-transform transform-gpu duration-[400ms] hover:scale-[1.1] block  bg-customOrange text-black p-[10px]">{t('full-screen.become')}</button>
+                    : <a target="_blank" href="https://docs.google.com/document/d/1vBf-9s1MxxyprBAnFTFjaE0tn2ZLCN9c_4C83o8IEz4/edit" style={{ fontSize: 'calc(16px + 4 * (100vw - 320px) / 1120)' }} className="media__materieal flex justify-center items-center full-screen-button transition-transform transform-gpu duration-[400ms] hover:scale-[1.1]  bg-customOrange text-black p-[10px]">Матеріали</a>}
+
+
             </div>
         </div>
     );

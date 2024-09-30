@@ -55,6 +55,10 @@
     width: calc(235px + 120 * (100vw - 320px) / 1120);
     height: calc(41px + 36 * (100vw - 320px) / 1120);
 }
+.media__materieal{
+  width: calc(235px + 120 * (100vw - 320px) / 1120);
+  height: calc(41px + 36 * (100vw - 320px) / 1120);
+}
 .statistic__diagrams{
  
   width: calc(250px + 216 * (100vw - 320px) / 1120);
@@ -441,6 +445,17 @@
     :last-child{
       margin-bottom: 0;
     }
+  }
+  .media__button {
+    padding-bottom: calc(15px + 8 * (100vw - 320px) / 1120);
+    padding-top: calc(15px + 8 * (100vw - 320px) / 1120);
+    font-size: calc(14px + 6 * (100vw - 320px) / 1120);
+  }
+  @media (min-width: 1440px) {
+    .media__button {
+      /* width: calc(280px + 325 * (100vw - 320px) / 1120); */
+    }
+    
   }
   .media__block{
     padding-left: calc(19px + 13 * (100vw - 320px) / 1120);
