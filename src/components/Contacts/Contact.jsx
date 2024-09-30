@@ -1,18 +1,27 @@
 import katyaImg from "/src/assets/katya.png"
+import rulaImgPro from "/src/assets/rula+.jpg"
 import rulaImg from "/src/assets/rula.png"
 import anyaImg from "/src/assets/anya.png"
 import hristImg from "/src/assets/hrist.jpg"
+import { useLocation } from "react-router-dom";
 
-const images = {
-    "katya": katyaImg,
-    "rula": rulaImg,
-    "anya": anyaImg,
-    "hrist": hristImg,
-}
 
 import phone from "/src/assets/phone.svg"
 import emailImg from "/src/assets/email.svg"
 export default function Contact({ image, name, position, number, email }) {
+
+    const location = useLocation();
+    let currentRulaImg;
+
+    { location.pathname === "/media" ? currentRulaImg = rulaImgPro : currentRulaImg = rulaImg }
+
+
+    const images = {
+        "katya": katyaImg,
+        "rula": currentRulaImg,
+        "anya": anyaImg,
+        "hrist": hristImg,
+    }
     return (
         <li className=" border-2 border-customOrange contact2 contact1 contact1  mb-5 lg:mb-0">
             <div className=" flex flex-col h-full items-center px-6 lg:px-[30px]">

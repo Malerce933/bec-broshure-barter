@@ -3018,6 +3018,14 @@ input[type="checkbox"] {
     gap: 93px;
   }
 
+  .lg\:gap-\[30px\] {
+    gap: 30px;
+  }
+
+  .lg\:gap-\[5px\] {
+    gap: 5px;
+  }
+
   .lg\:self-start {
     align-self: flex-start;
   }
@@ -3145,6 +3153,10 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 1130px) {
+  .\31 130px\:gap-\[42px\] {
+    gap: 42px;
+  }
+
   .\31 130px\:text-nowrap {
     text-wrap: nowrap;
   }

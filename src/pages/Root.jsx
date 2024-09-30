@@ -15,11 +15,12 @@ import Contacts from "/src/components/Contacts/Contacts";
 import Footer from "/src/components/Footer";
 import { SLIDES } from '/src/data';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from "react-router-dom";
 
 export default function RootLayout() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
     const { i18n } = useTranslation();
-
+    const location = useLocation();
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 1024);
@@ -75,7 +76,7 @@ export default function RootLayout() {
             <WhatBec isMobile={isMobile} innerRef={whatBecRef} />
             <PhotoSlider isMobile={isMobile} images={SLIDES} />
             <TdVsCs isMobile={isMobile} />
-            <Opportunities isMobile={isMobile} />
+            {location.pathname !== '/media' ? <Opportunities isMobile={isMobile} /> : <></>}
             <Statistics isMobile={isMobile} innerRef={statisticsRef} />
             <Portrait isMobile={isMobile} />
             <div ref={propositionsRef}></div>
