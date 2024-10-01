@@ -20,7 +20,7 @@ export default function Contacts({ innerRef }) {
                 <ol className=" flex flex-col 1130px:gap-[42px] lg:gap-[5px] gap-[25px] lg:flex-row justify-center items-center lg:items-start">
                     {displayedContacts.map((contact, index) => <Contact key={index} {...contact}></Contact>)}
                 </ol>
-                {location.pathname === '/media' ? <a className=" block mt-[25px] lg:mt-[57px] media__button bg-customOrange  w-full text-black underline text-center " href='mailto:lviv@best-eu.org' >Написати керівникам організації</a> : <></>}
+                {location.pathname === '/media' ? <a className=" block mt-[25px] lg:mt-[57px] media__button bg-customOrange  w-full text-black underline text-center " href="mailto:lviv@best-eu.org" >Написати керівникам організації</a> : <></>}
             </div>
 
         </div>

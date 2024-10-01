@@ -3010,20 +3010,12 @@ input[type="checkbox"] {
     gap: 37px;
   }
 
-  .lg\:gap-\[42px\] {
-    gap: 42px;
+  .lg\:gap-\[5px\] {
+    gap: 5px;
   }
 
   .lg\:gap-\[93px\] {
     gap: 93px;
-  }
-
-  .lg\:gap-\[30px\] {
-    gap: 30px;
-  }
-
-  .lg\:gap-\[5px\] {
-    gap: 5px;
   }
 
   .lg\:self-start {
